@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="assets/bookmarks/xsl/bookmarks.xsl" type="text/xsl" version="1.0" ?>
+<bookmarks
+    xmlns="http://purl.org/bubblegum/bookmarks/1.0"
+    xmlns:xdc="http://purl.org/xdc/elements/1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:h="http://www.w3.org/1999/xhtml">
+
+    <title>Links re:Hyperspace</title>
+    
+    <description>
+      <h:section>
+        <h:p>Some interesting links about hyperspaces from all around the web.</h:p>
+      </h:section>
+    </description>
+
+    <xdc:properties>
+        <xdc:title>Research on the concept of Hyperspace</xdc:title>
+        <xdc:description>A bunch of useful links on the concept of Hyperspace.</xdc:description>
+        <xdc:type xlink:href="http://purl.org/bubblegum/bookmarks/1.0" />
+        <xdc:modified xlink:href="urn:date:2016-11-04" />
+        <xdc:created xlink:href="urn:date:2016-11-04" />
+        <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" />
+        <xdc:isPartOf xlink:href="http://hyperspace.bubblegumproject.com" />
+        <xdc:language xlink:href="urn:lang:en" />
+        <xdc:publisher xlink:href="http://hyperspace.bubblegumproject.com" />
+        <xdc:creator xlink:href="http://hyperspace.bubblegumproject.com/people/buko" />
+        <xdc:contact xlink:href="http://hyperspace.bubblegumproject.com/people/buko" />
+        <xdc:subject xlink:href="https://en.wikipedia.org/wiki/Hyperspace" />
+        <xdc:subject xlink:href="https://en.wikipedia.org/wiki/Cyberspace" />
+    </xdc:properties>
+
+    <!--
+         ==============
+            ARTICLES
+         ==============
+    -->
+
+    <article
+        xlink:title="Extending RSS with Namespaces"
+        xlink:href="http://www.feedvalidator.org/docs/howto/declare_namespaces.html"
+        xlink:label="extending-rss-with-namespaces" />
+    <bookmark xlink:from="articles" xlink:to="extending-rss-with-namespaces" />
+
+    <article
+        xlink:title="XRD Alignment with Link Syntax"
+        xlink:href="https://hueniverse.com/2009/11/25/xrd-alignment-with-link-syntax/"
+        xlink:label="xrd-alignment-with-link-syntax" />
+    <bookmark xlink:from="articles" xlink:to="xrd-alignment-with-link-syntax" />
+
+    <article
+        xlink:title="Answering the Namespace Riddle"
+        xlink:href="http://www.xml.com/pub/a/2001/02/28/rddl.html?page=1"
+        xlink:label="answering-the-namespace-riddle" />
+    <bookmark xlink:from="articles" xlink:to="answering-the-namespace-riddle" />
+
+    <article
+        xlink:title="Resource Directory Description Language"
+        xlink:href="http://xml.coverpages.org/rddl.html"
+        xlink:label="rddl-coverpage" />
+    <bookmark xlink:from="articles" xlink:to="rddl-coverpage" />
+
+    <article
+        xlink:label="wikipedia-cyberspace"
+        xlink:title="Cyberspace"
+        xlink:href="https://en.wikipedia.org/wiki/Cyberspace" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-cyberspace" />
+
+    <article
+        xlink:label="wikipedia-augmented-browsing"
+        xlink:title="Augmented Browsing"
+        xlink:href="https://en.wikipedia.org/wiki/Augmented_browsing" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-augmented-browsing" />
+
+    <article
+        xlink:label="wikipedia-virtual-world"
+        xlink:title="Virtual Worlds"
+        xlink:href="https://en.wikipedia.org/wiki/Virtual_world" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-virtual-world">
+        <note>
+            <h:p>The challenge would be to do away with all the <h:em>fluff</h:em> around virtual words: gravity, avatars, weapons -- these are unnecessary.</h:p>
+        </note>
+    </bookmark>
+
+    <article
+        xlink:label="wikipedia-noosphere"
+        xlink:title="Noosphere"
+        xlink:href="https://en.wikipedia.org/wiki/Noosphere" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-noosphere">
+        <note>
+            <h:p><h:blockquote>For Teilhard, the noosphere is the sphere of thought encircling the earth that has emerged through evolution as a consequence of this growth in complexity / consciousness. The noosphere is therefore as much part of nature as the barysphere, lithosphere, hydrosphere, atmosphere, and biosphere. As a result, Teilhard sees the "social phenomenon as the culmination of and not he attenuation of the biological phenomenon."</h:blockquote> It's a critical idea: the hyperspaces that exist are <h:em>part of the earth</h:em>. They don't exist in some other place, in some other dimension.</h:p>
+        </note>
+        <note>
+            <h:p><h:q>...the noosphere emerges through and is constituted by the interaction of human minds. The noosphere thus grows in step with the organization of the human mass in relation to itself as it populates the earth.</h:q></h:p>
+        </note>
+    </bookmark>
+
+    <article
+        xlink:label="wikipedia-gaia-hypothesis"
+        xlink:title="Gaia Hypothesis"
+        xlink:href="https://en.wikipedia.org/wiki/Gaia_hypothesis" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-gaia-hypothesis" />
+
+    <article
+        xlink:label="wikipedia-metasystem-transition"
+        xlink:title="Metasystem Transition"
+        xlink:href="https://en.wikipedia.org/wiki/Metasystem_transition" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-metasystems-transition" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Cybernetics"
+        xlink:title="Cybernetics"
+        xlink:label="wikipedia-cybernetics" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-cybernetics" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Red_Queen_hypothesis"
+        xlink:title="Red Queen Hypothesis"
+        xlink:label="wikipedia-red-queen" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-red-queen" />
+
+    <article
+        xlink:href="http://www.goertzel.org/benzine/PrincipiaCybernetica.htm"
+        xlink:title="The Principia Cybernetica Project: Placing the Web at the Center of Man’s Quest for Knowledge"
+        xlink:label="the-principia-cybernetica-project-placing" />
+    <bookmark xlink:from="articles" xlink:to="the-principia-cybernetica-project-placing" />
+
+    <article
+        xlink:href="http://pespmc1.vub.ac.be/Papers/VanDamme-Intro.html"
+        xlink:title="Principia Cybernetica: An introduction"
+        xlink:label="principia-cybernetica-an-introduction" />
+    <bookmark xlink:from="articles" xlink:to="principia-cybernetica-an-introduction">
+        <note>
+            <h:p>I want to emphasize this idea of using a web, a network, a collection of nodes, to solve very real problems. This is the essence of the matter at hand.</h:p>
+        </note>
+    </bookmark>
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Cultural_evolution"
+        xlink:title="Cultural Evolution"
+        xlink:label="wikipedia-cultural-evolution" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-cultural-evolution" />
+
+    <article
+        xlink:href="http://catb.org/~esr/writings/homesteading/homesteading/"
+        xlink:title="Homesteading the Noosphere"
+        xlink:label="homesteading-the-noosphere" />
+    <bookmark xlink:from="articles" xlink:to="homesteading-the-noosphere" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Knowledge_ecosystem"
+        xlink:title="Knowledge ecosystem"
+        xlink:label="wikipedia-knowledge-ecosystem" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-knowledge-ecosystem" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Distributed_cognition"
+        xlink:title="Distributed Cognition"
+        xlink:label="wikipedia-distributed-cognition" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-distributed-cognition" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Knowledge_market"
+        xlink:title="Knowledge market"
+        xlink:label="wikipedia-knowledge-market" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-knowledge-market" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Global_brain"
+        xlink:title="Global brain"
+        xlink:label="wikipedia-global-brain" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-global-brain" />
+
+    <article
+        xlink:href="http://www.community-intelligence.com/files/KE%20in%20SysThinker.pdf"
+        xlink:title="Nurturing Systemic Wisdom through Knowledge Ecology"
+        xlink:label="nurturing-systemic-wisdom" />
+    <bookmark xlink:from="articles" xlink:to="nurturing-systemic-wisdom" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Knowledge_commons"
+        xlink:title="Knowledge commons"
+        xlink:label="wikipedia-knowledge-commons" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-knowledge-commons" />
+    
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Complex_adaptive_system"
+        xlink:title="Complex adaptive system"
+        xlink:label="wikipedia-complex-adaptive-system" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-complex-adaptive-system" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Knowledge_organization_(management)"
+        xlink:title="Knowledge organization"
+        xlink:label="wikipedia-knowledge-organization" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-knowledge-organization" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Project_blog"
+        xlink:title="Project blog"
+        xlink:label="wikipedia-project-blog" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-project-blog" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Knowledge-based_engineering"
+        xlink:title="Knowledge-based engineering"
+        xlink:label="wikipedia-knowledge-based-engineering" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-knowledge-based-engineering" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Self-organization"
+        xlink:title="Self-organization"
+        xlink:label="wikipedia-self-organization" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-self-organization" />
+
+    <article
+        xlink:href="https://en.wikipedia.org/wiki/Semantic_wiki"
+        xlink:title="Semantic Wiki"
+        xlink:label="wikipedia-semantic-wiki" />
+    <bookmark xlink:from="articles" xlink:to="wikipedia-semantic-wiki" />
+
+    <article
+        xlink:href="http://www.criticism.com/seo/docbook.php"
+        xlink:title="Tagging DocBook Documents for Search Engine Optimization"
+        xlink:label="tagging-docbook-documents" />
+    <bookmark xlink:from="articles" xlink:to="tagging-docbook-documents">
+        <note>
+            <h:p>Docbook does have a solution for tagging but again it's more complicated than it needs to be!</h:p>
+        </note>
+    </bookmark>
+
+    <article
+        xlink:href="http://docbook.org/tdg/en/html/revhistory.html"
+        xlink:title="Docbook.org: revhistory"
+        xlink:label="docbook-revhistory" />
+    
+    <article
+        xlink:href="http://www.service-architecture.com/articles/xml/common_xml_vocabularies.html"
+        xlink:title="Common Semantic Vocabularies"
+        xlink:label="common-semantic-vocabularies" />
+    <bookmark xlink:from="articles" xlink:to="common-semantic-vocabularies">
+        <note>
+            <h:p>Interesting list of XML vocabularies.</h:p>
+        </note>
+    </bookmark>
+
+    <!--
+         ============
+            PAPERS
+         ============
+    -->
+
+    <paper
+        xlink:href="http://escholarship.org/uc/item/38f4b791"
+        xlink:title="Information in the Biosphere: Biological and Digital Worlds"
+        xlink:label="information-in-the-biosphere-biological" />
+    <bookmark xlink:from="papers" xlink:to="information-in-biosphere-biological" />
+    <author xlink:from="michael-richard-gillings" xlink:to="information-in-biosphere-biological" />
+
+    <paper
+        xlink:href="http://pespmc1.vub.ac.be/Papers/MST-ConVar.pdf"
+        xlink:title="(Meta)Systems as Constraints on Variation—A classification and natural history of metasystem transitions"
+        xlink:label="metasystems-as-constraints-on-variation" />
+    <bookmark xlink:from="papers" xlink:to="metasystems-as-constraints-on-variation" />
+
+    <paper
+        xlink:href="http://www.facstaff.bucknell.edu/shrivast/KnowledgeEcology.html"
+        xlink:title="Knowledge Ecology: Knowledge Ecosystems for Business Education and Training"
+        xlink:label="knowledge-ecology-knowledge-ecosystems-for-business" />
+    <bookmark xlink:from="papers" xlink:to="knowledge-ecology-knowledge-ecosystems-for-business" />
+
+    <paper
+        xlink:href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=984600"
+        xlink:title="Knowledge Ecosystems: A Theoretical Lens for Organizations Confronting Hyperturbulent Environments"
+        xlink:label="knowledge-ecosystems-a-theoretical-lens-for-organizations" />
+    <bookmark xlink:from="papers" xlink:to="knowledge-ecosystems-a-theoretical-lens-for-organizations" />
+
+    <paper
+        xlink:href="http://www.brint.com/papers/ecology.htm"
+        xlink:title="Knowledge Management for Organizational White-Waters: An Ecological Framework"
+        xlink:label="knowledge-management-for-organizational-white-waters" />
+    <bookmark xlink:from="papers" xlink:to="knowledge-management-for-organizational-white-waters" />
+
+    <paper
+        xlink:href="http://www.academia.edu/attachments/3937565/download_file?st=MTQ3ODI1ODEwMSw3MS4xODMuOTMuMTgz&amp;s=swp-toolbar&amp;ct=MTQ3ODI1ODA5OSwxMTE3ODQw"
+        xlink:title="Knowledge Services: A New Research Field between KM and SSME" 
+        xlink:label="knowledge-services-a-new-research-field" />
+    <bookmark xlink:from="papers" xlink:to="knowledge-services-a-new-research-field" />
+
+    <paper
+        xlink:href="http://www.dodccrp.org/files/IC2J_v4n2_03_Phister.pdf"
+        xlink:title="Cyberspace: The Ultimate Complex Adaptive System" 
+        xlink:label="cyberspace-the-ultimate-cas" />
+    <bookmark xlink:from="papers" xlink:to="cyberspace-the-ultimate-cas" />
+
+    <paper
+        xlink:href="http://pespmc1.vub.ac.be/papers/WWW-Super-Brain.pdf"
+        xlink:title="The World-Wide Web as a Super-Brain: from metaphor to model"
+        xlink:label="the-worldwide-web-as-a-super-brain" />
+    <bookmark xlink:from="papers" xlink:to="the-worldwide-web-as-a-super-brain" />
+
+    <paper
+        xlink:href="http://pespmc1.vub.ac.be/ECCO/ECCO-Papers/Weaver-Attention.pdf"
+        xlink:title="A Framework for Scalable Cognition"
+        xlink:label="a-framework-for-scalable-cognition" />
+    <bookmark xlink:from="papers" xlink:to="a-framework-for-scalable-cognition" />
+
+    <paper
+        xlink:href="http://pespmc1.vub.ac.be/ECCO/ECCO-Papers/Weaver-Attention.pdf"
+        xlink:title="Conceptions of a Global Brain: An Historical Review"
+        xlink:label="conceptions-of-a-global-brain" />
+    <bookmark xlink:from="papers" xlink:to="conceptions-of-a-global-brain" />
+
+    <paper
+        xlink:href="http://pespmc1.vub.ac.be/papers/Superorganism.pdf"
+        xlink:title="The Global Superoganism: an evolutionary-cybernetic model of the emerging network society" 
+        xlink:label="the-global-superorganism-an-evolutionary-cybernetic-model" />
+    <bookmark xlink:from="papers" xlink:to="the-global-superorganism-an-evolutionary-cybernetic-model" />
+
+    <paper
+        xlink:href="http://cci.mit.edu/publications/CCIwp2011-04.pdf"
+        xlink:title="Programming the Global Brain"
+        xlink:label="programming-the-global-brain" />
+    <bookmark xlink:from="papers" xlink:to="programming-the-global-brain" />
+
+    <paper
+        xlink:href="http://ai4fun.com/current/ijis/"
+        xlink:title="A CyberOrganism Model for Awareness in Collaborative Communities on the Internet"
+        xlink:label="cyberorganism-model-for-community-awareness" />
+    <bookmark xlink:from="papers" xlink:to="cyberorganism-model-for-community-awareness" />
+
+    <paper
+        xlink:href="http://integrative-paradigm.org/papers/Eckm2005Dace_156.pdf"
+        xlink:title="A Framework for Personal Knowledge Management in the Context of Organizational Knowledge Management"
+        xlink:label="a-framework-for-personal-knowledge-management" />
+    <bookmark xlink:from="papers" xlink:to="a-framework-for-personal-knowledge-management" />
+
+    <paper
+        xlink:href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.828.7276&amp;rep=rep1&amp;type=pdf"
+        xlink:title="Towards a Personal Knowledge Model (PKM) in Collaborative Environment of School Teachers' Community"
+        xlink:label="towards-a-pkm-in-school" />
+    <bookmark xlink:from="papers" xlink:to="towards-a-pkm-in-school" />
+
+    <journal
+        xlink:href="http://www.ejkm.com/main.html"
+        xlink:title="Electronic Journal of Knowledge Management (EJKM)"
+        xlink:label="electronic-journal-of-knowledge-management" />
+    <bookmark xlink:from="journals" xlink:to="electronic-journal-of-knowledge-management" />
+
+    <!--
+         ===========
+            BOOKS
+         ===========
+    -->
+
+    <book
+        xlink:href="https://books.google.com/books?id=QrwityQkdxkC"
+        xlink:title="The Phenomenon of Teilhard: Prophet for a New Age" 
+        xlink:label="the-phenomenon-of-teilhard" />
+    <bookmark xlink:from="books" xlink:to="the-phenomenon-of-teilhard" />
+
+    <book
+        xlink:href="https://books.google.com/books?id=n57fm9fO7woC"
+        xlink:title="The Strategic Management of Intellectual Capital and Organizational Knowledge"
+        xlink:label="the-strategic-management-of-intellectual-capital" />
+    <bookmark xlink:from="books" xlink:to="the-strategic-management-of-intellectual-capital" />
+
+    <book
+        xlink:href="http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan031277.pdf"
+        xlink:title="How to Think Like a Knowledge Worker"
+        xlink:label="how-to-think-like-a-knowledge-worker" />
+    <bookmark xlink:from="books" xlink:to="how-to-think-like-a-knowledge-worker" />
+
+    <book
+        xlink:href="https://dl.dropboxusercontent.com/u/35217953/Rethinking%20Knowledge%20Work%20%282012%29.pdf"
+        xlink:title="Rethinking Knowledge Work"
+        xlink:label="rethinking-knowledge-work" />
+    <bookmark xlink:from="books" xlink:to="rethinking-knowledge-work" />
+
+    <!--
+         ===============
+            DOCUMENTS
+         ===============
+    -->
+
+    <document
+        xlink:href="https://dl.dropboxusercontent.com/u/35217953/PKM%20Diagnostic%20Assessment%202012.pdf"
+        xlink:title="PKM Diagnostic Assessment"
+        xlink:label="pkm-diagnostic-assessment" />
+    <bookmark xlink:from="documents" xlink:to="pkm-diagnostic-assessment" />
+
+    <document
+        xlink:href="https://dl.dropboxusercontent.com/u/35217953/PKM%20Planning%20Guide%202012.pdf"
+        xlink:title="Personal Knowledge Management Planning Guide"
+        xlink:label="pkm-planning-guide" />
+    <bookmark xlink:from="documents" xlink:to="pkm-planning-guide" />
+
+
+    <!--
+         ====================
+            SPECIFICATIONS
+         ====================
+    -->
+
+    <specification
+        xlink:href="http://www.idpf.org/epub/31/spec/epub-spec-20160906.html"
+        xlink:title="EPUB 3.1 Draft Specification"
+        xlink:label="epub-3.1-draft-spec" />
+    <bookmark xlink:from="specifications" xlink:to="epub-3.1-draft-spec">
+        <note>
+            <h:p>Would be cool if we could automatically convert a hyperspace to an epub. That would be one way to "render" a hyperspace.</h:p>
+        </note>
+    </bookmark>
+
+    <specification
+        xlink:href="http://xmlns.com/foaf/spec/"
+        xlink:title="FOAF Vocabulary Specification 0.99"
+        xlink:label="foaf-vocabulary-specification" />
+    <bookmark xlink:from="specifications" xlink:to="foaf-vocabulary-specification" />
+    
+    <specification
+        xlink:href="https://tools.ietf.org/html/rfc6351"
+        xlink:title="xCard: vCard XML Specification"
+        xlink:label="xcard-vcard-xml-spec" />
+    <bookmark xlink:from="specifications" xlink:to="xcard-vcard-xml-spec" />
+
+    <specification
+        xlink:href="http://www.rddl.org"
+        xlink:title="RDDL 1.0"
+        xlink:label="rddl-1.0-spec" />
+    <bookmark xlink:from="specifications" xlink:to="rddl-1.0-spec" />
+
+    <specification
+        xlink:href="http://docs.oasis-open.org/xri/xrd/v1.0/xrd-1.0.html"
+        xlink:title="XRD 1.0"
+        xlink:label="xrd-1.0-spec" />
+    <bookmark xlink:from="specifications" xlink:to="xrd-1.0-spec" />
+
+    <specification
+        xlink:href="https://cyber.harvard.edu/rss/rss.html"
+        xlink:title="RSS 2.0 Specification"
+        xlink:label="rss-2.0-specification" />
+    <bookmark xlink:from="specifications" xlink:to="rss-2.0-specifications" />
+
+    <specification
+        xlink:href="https://tools.ietf.org/html/rfc6321#appendix-B.1.2"
+        xlink:title="xCal: The XML Format for iCalendar"
+        xlink:label="xcal-specification" />
+    <bookmark xlink:from="specifications" xlink:to="xcal-specification" />
+
+    <!--
+         ===========
+            BLOGS
+         ===========
+    -->
+
+    <blog
+        xlink:href="http://www.lessig.org/new-blog/"
+        xlink:title="LESSIG Blog, V2"
+        xlink:label="lessig-blog-v2" />
+    <bookmark xlink:from="blogs" xlink:to="lessig-blog-v2" />
+
+    <blog
+        xlink:href="https://blog.jonudell.net/"
+        xlink:title="John Udell: Strategies for Internet citizens"
+        xlink:label="john-udell-strategies" />
+    <bookmark xlink:from="blogs" xlink:to="john-udell-strategies" />
+
+    <blog
+        xlink:href="http://scripting.com/"
+        xlink:title="Scipting News" 
+        xlink:label="scripting-news-blog" />
+    <bookmark xlink:from="blogs" xlink:to="scripting-news-blog" />
+
+    <blog
+        xlink:href="https://blogs.harvard.edu/doc/"
+        xlink:title="Doc Searls Weblog"
+        xlink:label="doc-searls-weblog" />
+    <bookmark xlink:from="blogs" xlink:to="doc-searls-weblog" />
+
+    <blog
+        xlink:href="http://www.roughtype.com/"
+        xlink:title="Rough Type"
+        xlink:label="rough-type-blog" />
+    <bookmark xlink:from="blogs" xlink:to="rough-type-blog" />
+
+    <blog
+        xlink:href="https://denoer.wordpress.com/"
+        xlink:title="denoer"
+        xlink:label="denoer-blog" />
+    <bookmark xlink:from="blogs" xlink:to="denoer-blog" />
+
+    <blog
+        xlink:href="http://kk.org/kk/"
+        xlink:title="Kevin Kelly's Lifestream"
+        xlink:label="kevin-kelly-lifestream" />
+    <bookmark xlink:from="blogs" xlink:to="kevin-kelly-lifestream" />
+
+    <!--
+         ==========
+            CODE
+         ==========
+    -->
+
+    <code
+        xlink:href="http://extensions.xwiki.org/xwiki/bin/view/Extension/Semantic+XWiki"
+        xlink:title="Semantic XWiki Extension"
+        xlink:label="semantic-xwiki-extension" />
+    <bookmark xlink:from="code" xlink:to="semantic-xwiki-extension" />
+
+    <code
+        xlink:href="http://marmotta.apache.org/"
+        xlink:title="Apache Marmotta"
+        xlink:label="apache-marmotta-linked-data-server" />
+    <bookmark xlink:from="code" xlink:to="apache-marmotta-linked-data-server" />
+
+    <code
+        xlink:href="http://xmlresume.sourceforge.net/"
+        xlink:title="XML Resume" 
+        xlink:label="xml-resume-library" />
+    <bookmark xlink:from="code" xlink:to="xml-resume-library">
+        <note>
+            <h:p>Would be interesting to have an XLink'ed version of this...</h:p>
+        </note>
+    </bookmark>
+
+    <code
+        xlink:href="https://github.com/edumbill/doap/"
+        xlink:title="Description of a Project (DOAP)"
+        xlink:label="doap-project" />
+    <bookmark xlink:from="code" xlink:to="doap-project" />
+
+    <!--
+         ===========
+            SITES
+         ===========
+    -->
+    
+    <site
+        xlink:href="http://pcp.vub.ac.be/ASC/indexASC.html"
+        xlink:title="Web Dictionary of Cybernetics and Systems" 
+        xlink:label="web-dictionary-of-cybernetics" />
+    <bookmark xlink:from="sites" xlink:to="web-dictionary-of-cybernetics" />
+
+    <site
+        xlink:href="https://cyber.harvard.edu/wealth_of_networks/Main_Page"
+        xlink:title="Wealth of Networks: Wiki - Main Page"
+        xlink:label="wealth-of-networks" />
+    <bookmark xlink:from="sites" xlink:to="wealth-of-networks" />
+
+    <site
+        xlink:href="http://pespmc1.vub.ac.be/GBRAIFAQ.html"
+        xlink:title="The Global Brain FAQ"
+        xlink:label="the-global-brain-faq" />
+    <bookmark xlink:from="sites" xlink:to="the-global-brain-faq" />
+
+    <site
+        xlink:href="https://sites.google.com/site/gbialternative1/home"
+        xlink:title="The Global Brain Institute" 
+        xlink:label="the-global-brain-institute" />
+    <bookmark xlink:from="sites" xlink:to="the-global-brain-institute" />
+
+    <site
+        xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page"
+        xlink:title="Wikidata"
+        xlink:label="wikidata-site" />
+    <bookmark xlink:from="sites" xlink:to="wikidata-site" />
+
+    <site
+        xlink:href="http://microformats.org/wiki/Main_Page"
+        xlink:title="Microformats Wiki"
+        xlink:label="microformats-wiki" />
+    <bookmark xlink:from="sites" xlink:to="microformats-wiki" />`
+
+    <site
+        xlink:href="http://gmpg.org/xfn/"
+        xlink:title="XHTML Friends Network"
+        xlink:label="xhtml-friends-network" />
+    <bookmark xlink:from="sites" xlink:to="xhtml-friends-network">
+        <note>
+            <h:p>I find the idea of explicitly expressing human relationships like this to be profoundly wrong...</h:p>
+        </note>
+    </bookmark>
+
+    <site
+        xlink:href="http://www.kmworld.com/"
+        xlink:title="KM World"
+        xlink:label="km-world-site" />
+    <bookmark xlink:from="sites" xlink:to="km-world-site" />
+
+    <!--
+         ===================
+            ORGANIZATIONS
+         ===================
+    -->
+
+    <organization
+        xlink:href="http://pespmc1.vub.ac.be/Default.html" 
+        xlink:title="Principia Cybernetica Web"
+        xlink:label="principia-cybernetica-web" />
+    <bookmark xlink:from="organizations" xlink:to="principia-cybernetica-web" />
+
+    <organization
+        xlink:href="http://cci.mit.edu/"
+        xlink:title="MIT Center for Collective Intelligence"
+        xlink:label="mit-center-for-collective-intelligence" />
+    <bookmark xlink:from="organizations" xlink:to="mit-center-for-collective-intelligence" />
+
+    <!--
+        ==============
+            PEOPLE
+        ==============
+    -->
+
+    <person
+        xlink:href="https://www.researchgate.net/profile/Michael_Gillings/publications"
+        xlink:label="michael-richard-gillings"
+        xlink:title="Michael Richard Gillings" />
+    <bookmark xlink:from="people" xlink:to="michael-richard-gillings" />
+</bookmarks>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+      
+  <hyper:location>
+    <hyper:title>Our Mission</hyper:title>
+    <hyper:description xlabel="here">
+      <h:section>
+        <h:p><h:a href="hyperspace.xml">Hyperspaces</h:a> are <h:strong>not</h:strong> a new idea.</h:p>
+        
+        <h:p>The <h:a href="https://www.w3.org/History/1989/proposal.html">original vision of the web</h:a> recognized the fundamental challenge of  navigating a large, complex, constantly-evolving <h:a href="http://wiki.c2.com/?ProblemDomain">problem space</h:a> and it suggested a remarkable solution: <h:em>map the solution space</h:em>.</h:p>
+        
+        <h:p>Literally.</h:p>
+        
+        <h:p>A <h:strong>web</h:strong> of "notes" <h:strong>linked</h:strong> to other notes where each note, or node, would have a different <h:em>type</h:em> and might represent <h:em>anything</h:em> from a person to an abstract concept, collaboratively edited, constantly evolving in real-time as new information was discovered and new knowledge integrated, would, over time, better facilitate communication and collaboration than any kind of rigid hierarchical information system or overly structured documentation.</h:p>
+        
+        <h:p>This 30 year-old vision that inspired the world-wide web was certainly on to something. Thus <h:a href="hyperspace.xml">hyperspaces</h:a>.</h:p>
+        
+        <h:p>But if hyperspaces are just the web and they're certainly not anything new then why <h:a href="https://explorable.com/definition-of-research">research</h:a> them?</h:p>
+        
+        <h:p>Well, we think there's still <h:strong>a lot to learn</h:strong> about hyperspaces.</h:p>
+        
+        <h:p>The web has flourished over the past thirty years but for all it has accomplished we're still just scratching the surface of the true potential.</h:p>
+        
+        <h:p>We suspect that hyperspaces can and should be used to <h:strong>solve real, complex, ever-evolving problems</h:strong> and that when used correctly they can <h:strong>dramatically transform an organization</h:strong> as its members become more effective at communicating and collaborating with one another.</h:p>
+        
+        <h:p>Our mission then is to show how this might be done. To show that a hyperspace can be a powerful instrument of change we should like to <h:a href="http://www.quote-wise.com/quotes/mahatma-gandhi/if-we-could-change-ourselves-the-tendencies-i">be the change</h:a>.</h:p>
+
+        <h:p>We think this adventure is going to be lots of fun. If you like feel free to come along for the ride!</h:p>
+      </h:section>  
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="goal-collaboration.xml"
+      xlink:title="Goal: Self-Sustaining"
+      xlink:label="goal-self-sustaining" />
+    <hyper:link xlink:from="here" xlink:to="goal-self-sustaining" xlink:role="https://en.wikipedia.org/wiki/Goal" />
+    
+    <hyper:resource
+      xlink:href="goal-community.xml"
+      xlink:title="Goal: Community"
+      xlink:label="goal-community" />
+    <hyper:link xlink:from="here" xlink:to="goal-community" xlink:role="https://en.wikipedia.org/wiki/Goal" />
+    
+    <hyper:resource
+      xlink:href="goal-ecosystem.xml"
+      xlink:title="Goal: Ecosystem"
+      xlink:label="goal-ecosystem" />
+    <hyper:link xlink:from="here" xlink:to="goal-ecosystem" xlink:role="https://en.wikipedia.org/wiki/Goal" />
+    
+    <hyper:resource
+      xlink:href="goal-comprehensive.xml"
+      xlink:title="Goal: Comprehensive"
+      xlink:label="goal-comprehensive" />
+    <hyper:link xlink:from="here" xlink:to="goal-comprehensive.xml" xlink:role="https://en.wikipedia.org/wiki/Goal" />
+    
+    <hyper:resource
+      xlink:href="goal-popular.xml"
+      xlink:title="Goal: Popular"
+      xlink:label="goal-popular" />
+    <hyper:link xlink:from="here" xlink:to="goal-popular" xlink:role="https://en.wikipedia.org/wiki/Goal" />
+    
+    <hyper:resource
+      xlink:href="https://www.w3.org/History/1989/proposal.html"
+      xlink:title="Information Management: A Proposal"
+      xlink:label="web-vision" />
+    <hyper:link xlink:from="here" xlink:to="web-vision" />
+    
+    <hyper:resource
+      xlink:href="http://wiki.c2.com/?ProblemDomain"
+      xlink:title="c2: Problem Domain"
+      xlink:label="problem-domain" />
+    <hyper:link xlink:from="here" xlink:to="problem-domain" />
+    
+    <hyper:resource
+      xlink:href="https://explorable.com/definition-of-research"
+      xlink:title="What is Research?"
+      xlink:label="research" />
+    <hyper:link xlink:from="here" xlink:to="research" />
+    
+    <hyper:resource
+      xlink:href="http://www.quote-wise.com/quotes/mahatma-gandhi/if-we-could-change-ourselves-the-tendencies-i"
+      xlink:title="Change Ourselves"
+      xlink:label="change-ourselves" />
+    <hyper:link xlink:from="here" xlink:to="change-ourselves" />
+  </hyper:location>
+
+  <xdc:properties>
+    <xdc:title>The Mission of hyperspaceresearch.org</xdc:title>
+    <xdc:description>Mission statement for hypserspaceresearch.org</xdc:description>
+    <xdc:modified xlink:href="urn:date:2016-11-05" xlink:title="2016-11-05" />
+    <xdc:created xlink:href="urn:date:2016-11-05" xlink:title="2016-11-05" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="./buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+  
+</hyper:concept>

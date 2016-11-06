@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:index 
+    xmlns:hyper="http://purl.org/hyperspace/model/1.0" 
+    xmlns:xdc="http://purl.org/xdc/elements/1.0" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:h="http://www.w3.org/1999/xhtml" 
+    xmlns:xi="http://www.w3.org/2001/XInclude" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="
+        http://www.w3.org/1999/xlink http://www.w3.org/1999/xlink.xsd     
+        http://www.w3.org/2001/XInclude http://www.w3.org/2001/XInclude/XInclude.xsd     
+        http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  
+  <hyper:location>
+    <hyper:title>Welcome to hyperspaceresearch.org!</hyper:title>
+    <hyper:description xlink:label="here">
+      <h:section id="description">
+        <h:p>This is a <h:a href="pages/what-is-a-hyperspace.xml">hyperspace</h:a> devoted to researching <h:strong>hyperspaces</h:strong>!</h:p>
+        
+        <h:p><h:small>Big surprise.</h:small></h:p>
+        
+        <h:p>We're interested in using hyperspaces to solve real-world, concrete problems. To that end we've started this hyperspace where we can explore, investigate, collaborate, discuss and develop the concept of a hyperspace.</h:p>
+        
+      </h:section>
+    </hyper:description>
+    
+    <hyper:resource 
+      xlink:href="nodes/mission.xml" 
+      xlink:title="Our Mission" 
+      xlink:label="mission">
+      <hyper:summary>Our mission explains what we're trying to accomplish here.</hyper:summary>
+    </hyper:resource>
+    <hyper:link xlink:from="here" xlink:to="mission" xlink:role="https://en.wikipedia.org/wiki/Mission_statement" />
+    
+    <hyper:resource 
+      xlink:href="nodes/bookmarks.xml" 
+      xlink:title="Hyperspace Bookmarks" 
+      xlink:label="hyperspace-bookmarks">
+      <hyper:summary>Lots and lots of interesting bookmarks about hyperspaces and related subjects from around the web.</hyper:summary>
+    </hyper:resource>
+    <hyper:link xlink:from="here" xlink:to="hyperspace-bookmarks" xlink:role="http://purl.org/bubblegum/bookmarks/1.0" />
+    
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:title>Hyperspace Research</xdc:title>
+    <xdc:description>A hyperspace focused on research of hyperspaces!</xdc:description>
+    <xdc:type xlink:href="http://purl.org/hyperspace/model/1.0"/>
+    <xdc:modified xlink:href="urn:date:2016-11-05" xlink:title="2016-11-05" />
+    <xdc:created xlink:href="urn:date:2016-11-04" xlink:title="2016-11-04"/>
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en"/>
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org"/>
+    <xdc:creator xlink:href="http://www.hyperspaceresearch.org/nodes/buko.xml" xlink:title="buko" />
+    <xdc:contributor xlink:href="http://www.hyperspaceresearch.org/nodes/buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="http://www.hyperspaceresearch.org/nodes/buko.xml" xlink:title="buko" />
+    <xdc:subject xlink:href="http://en.wikipedia.org/wiki/Hyperspace"/>
+  </xdc:properties>
+</hyper:index>

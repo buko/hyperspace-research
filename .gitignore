@@ -1,0 +1,16 @@
+target/
+
+bin/
+
+.settings/
+.idea/
+
+*.class
+*.log
+*.jar
+
+*.iml
+
+.metadata
+.project
+.classpath

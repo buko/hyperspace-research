@@ -1,0 +1,27 @@
+@namespace hyper url(http://purl.org/hyperspace/model/1.0);
+@namespace xdc url(http://purl.org/xdc/elements/1.0);
+
+hyper|title {
+	display: none;
+}
+
+hyper|resource {
+	display: none;
+}
+
+xdc|* {
+	display: none;
+}
+
+hyper|location {
+	max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+hyper|description {
+	max-width: 650px;
+    margin: 0 auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
