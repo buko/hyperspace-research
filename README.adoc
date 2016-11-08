@@ -1,0 +1,3 @@
+== README
+
+The website behind link:http://www.hyperspaceresearch.org.
