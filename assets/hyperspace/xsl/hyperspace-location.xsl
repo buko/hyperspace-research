@@ -21,16 +21,16 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" 
           integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" 
           crossorigin="anonymous" />
-        <h:title><xsl:value-of select="//hyper:location/hyper:title" /></h:title>
+        <h:title><xsl:value-of select="/*/hyper:location/hyper:title" /></h:title>
       </h:head>
       <h:body style="padding-top: 5rem;">
         <h:header style="padding: 3rem 1.6rem; text-align: center;">
           <h:div class="container text-xs-center">
-            <h:h1><xsl:value-of select="//hyper:location/hyper:title" /></h:h1>
+            <h:h1><xsl:value-of select="/*/hyper:location/hyper:title" /></h:h1>
             
             <xsl:if test="/hyper:location/hyper:summary">
               <h:p class="lead text-muted">
-                <xsl:value-of select="//hyper:location/hyper:summary" />
+                <xsl:value-of select="/*/hyper:location/hyper:summary" />
               </h:p>
             </xsl:if>            
           </h:div>
@@ -40,14 +40,14 @@
           <h:div class="row">
             
             <h:div class="col-sm-7">
-              <xsl:apply-templates select="//hyper:location/hyper:description" />
+              <xsl:apply-templates select="/*/hyper:location/hyper:description" />
             </h:div>
         
             <h:div class="col-sm-4 offset-sm-1">
               <h:section>
                 <h:h1 class="h5">./</h:h1>
                 <h:ul class="list-unstyled">
-                  <xsl:apply-templates select="//hyper:location/hyper:resource" />
+                  <xsl:apply-templates select="/*/hyper:location/hyper:resource" />
                 </h:ul>
               </h:section>
             </h:div>
@@ -96,21 +96,23 @@
   
   <xsl:template match="//xdc:properties">
     <h:p>This location was created on <h:a href="{xdc:created/@xlink:href}"><xsl:value-of select="xdc:created/@xlink:title" /></h:a> by 
-      <h:a href="{xdc:contact/@xlink:href}"><xsl:value-of select="xdc:creator/@xlink:title" /></h:a></h:p>
+      <h:a href="{xdc:contact/@xlink:href}"><xsl:value-of select="xdc:creator/@xlink:title" /></h:a>.</h:p>
       
-    <h:p>It was last modified on <h:a href="{xdc:modified/@xlink:href}"><xsl:value-of select="xdc:modified/@xlink:title" /></h:a></h:p>
+    <h:p>It was last modified on <h:a href="{xdc:modified/@xlink:href}"><xsl:value-of select="xdc:modified/@xlink:title" /></h:a>.</h:p>
     
     <xsl:if test="xdc:contributor">
-      <h:p>Contributors include  <xsl:for-each select="xdc:contributor"><h:a href="@xlink:href"><xsl:value-of select="@xlink:title" /></h:a> + </xsl:for-each></h:p>
+      <h:p>Contributors include  <xsl:for-each select="xdc:contributor"><h:a href="@xlink:href"><xsl:value-of select="@xlink:title" /></h:a> + </xsl:for-each>.</h:p>
     </xsl:if>
     
-    <h:p>The location is part of <h:a href="{xdc:isPartOf/@xlink:href}"><xsl:value-of select="xdc:isPartOf/@xlink:title" /></h:a></h:p>
+    <h:p>The location is part of <h:a href="{xdc:isPartOf/@xlink:href}"><xsl:value-of select="xdc:isPartOf/@xlink:title" /></h:a>.</h:p>
     
-    <h:p>It is available under the <h:a href="{xdc:license/@xlink:href}"><xsl:value-of select="xdc:license/@xlink:title" /></h:a> license</h:p>
+    <h:p>It is available under the <h:a href="{xdc:license/@xlink:href}"><xsl:value-of select="xdc:license/@xlink:title" /></h:a> license.</h:p>
     
-    <h:p>Any questions should be addressed to <h:a href="{xdc:contact/@xlink:href}"><xsl:value-of select="xdc:contact/@xlink:title" /></h:a></h:p>
+    <h:p>Any questions should be addressed to <h:a href="{xdc:contact/@xlink:href}"><xsl:value-of select="xdc:contact/@xlink:title" /></h:a>.</h:p>
     
-    <h:p><h:strong>Light up the darkness</h:strong></h:p>
+    <h:p>This is a <h:a href="http://www.hyperspaceresearch.org/">hyperspace</h:a>. It is filled with ideas and people and it is changing all the time.</h:p>
+    
+    <h:p><h:strong>Light up the darkness</h:strong>.</h:p>
   </xsl:template>
   
  </xsl:stylesheet>

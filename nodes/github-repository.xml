@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:annotation
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+
+  <hyper:location>
+    <hyper:title>Github Project</hyper:title>
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p>All the work for <h:a href="http://www.hyperspaceresearch.org">hyperspaceresearch.org</h:a> (including this very website) is
+        available on github.</h:p>
+      </h:section>
+    </hyper:description>
+      
+    <hyper:resource
+      xlink:href="https://github.com/hyperspace-research"
+      xlink:title="Hyperspace Research @github"
+      xlink:label="github-project" />
+    <hyper:link xlink:from="here" xlink:to="github-project" xlink:role="http://purl.org/hyperspace/model/links#annotation" />
+
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:created xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:annotation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+    
+  <hyper:location>
+    <hyper:title>Goal: Community</hyper:title>
+  
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p><h:a href="social-hyperspace.xml">Hyperspaces are social</h:a>. We like to think this space is pretty social too. This is a safe space open to most everybody; we encourage input from a diverse crowd and hope this place provides something for everybody. More importantly the community is in charge here. Contributions are driven by the community so whatever happens here will be by and for our community.</h:p>
+        
+        <h:p>The community, like any good community, is also sustainable. Sustainable here isn't so much about conserving resources as it is about <h:a href="community-resilency.xml">resilency</h:a>. Multiple collaborators and a culture open to contribution ensures that the community fulfills its <h:a href="mission.xml">mission</h:a> of exploring new ideas and technolgies. The technology is also <h:a href="fork-friendly.xml">fork-friendly</h:a> to encourage multiple copies and lots of experimentation. And of course <h:a href="great-documentation.xml">great documentation</h:a> is a given.</h:p>
+      </h:section>
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="social-hyperspace.xml"
+      xlink:title="Hyperspace is a Social Space"
+      xlink:label="social-hyperspace" />
+    <hyper:link xlink:from="here" xlink:to="social-hyperspace" />
+    
+    <hyper:resource
+      xlink:href="community-resilency.xml"
+      xlink:title="Resilency"
+      xlink:label="resilency" />
+    <hyper:link xlink:from="here" xlink:to="resilency" />
+    
+    <hyper:resource
+      xlink:href="fork-friendly.xml"
+      xlink:title="Fork Friendly"
+      xlink:label="fork-friendly" />
+    <hyper:link xlink:from="here" xlink:to="fork-friendly" />
+    
+    <hyper:resource
+      xlink:href="great-documentation.xml"
+      xlink:title="Great Documentation"
+      xlink:label="great-documentation" />
+    <hyper:link xlink:from="here" xlink:to="great-documentation" />
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:created xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>

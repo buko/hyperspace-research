@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:question
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  
+  <hyper:location>
+    <hyper:title>What is a hyperspace?</hyper:title>
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p>Good question.</h:p>
+        
+        <h:p>You might think here at <h:a href="http://www.hyperspaceresearch.org">hyperspaceresearch.org</h:a> we have a great answer.</h:p>
+        
+        <h:p>...we're working on it.</h:p>
+        
+        <h:p>To the right you'll see what we've come up with so far.</h:p>
+      </h:section>
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="hyperspace-as-knowledge.xml"
+      xlink:title="Hyperspace as Knowledge"
+      xlink:label="hyperspace-as-knowledge" />
+    <hyper:link xlink:from="here" xlink:to="hyperspace-as-knowledge" xlink:role="https://en.wikipedia.org/wiki/Answer" />
+    
+    <hyper:resource
+      xlink:href="hyperspace-as-community.xml"
+      xlink:title="Hyperspace as Community"
+      xlink:label="hyperspace-as-community" />
+    <hyper:link xlink:from="here" xlink:to="hyperspace-as-community" xlink:role="https://en.wikipedia.org/wiki/Answer" />
+    
+    <hyper:resource
+      xlink:href="hyperspace-as-tool.xml"
+      xlink:title="Hyperspace as Tool"
+      xlink:label="hyperspace-as-tool" />
+    <hyper:link xlink:from="here" xlink:to="hyperspace-as-tool" xlink:role="https://en.wikipedia.org/wiki/Answer" />
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:title>The Mission of hyperspaceresearch.org</xdc:title>
+    <xdc:description>Mission statement for hypserspaceresearch.org</xdc:description>
+    <xdc:modified xlink:href="urn:date:2016-11-06" xlink:title="2016-11-06" />
+    <xdc:created xlink:href="urn:date:2016-11-06" xlink:title="2016-11-06" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="./buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:question>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  
+  <hyper:location>
+    <hyper:title>Goal: Comprehensive</hyper:title>
+    
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p><h:a href="http://www.hyperspaceresearch.org">hyperspaceresearch.org</h:a> aims to be a <h:em>comprehensive</h:em> source for research about <h:a href="what-is-a-hyperspace.xml">hyperspaces</h:a>. (Really, given the name it ought to be the <h:em>most</h:em>  comprehensive source on the ol' web.) The site explores <h:strong>everything</h:strong> hyperspaces -- not just technology but also all the issues around <h:a href="what-is-knowledge-management.xml">knowledge management</h:a>, collaboration, and and <h:a href="http://www.intertwingly.net/stories/2002/03/13/manufacturedSerendipity.html">serendipity</h:a> Yes, this is a big scope but, hey, the web isn't running out of space any time soon.</h:p>
+      </h:section>
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="what-is-knowledge-management.xml"
+      xlink:title="What is Knowledge Management?"
+      xlink:label="what-is-km" />
+    <hyper:link xlink:from="here" xlink:to="what-is-knowledge-management.xml" />
+    
+    <hyper:resource
+      xlink:href="http://www.intertwingly.net/stories/2002/03/13/manufacturedSerendipity.html"
+      xlink:title="Manufactured Serendipity"
+      xlink:label="manufactured-serendipity" />
+    <hyper:link xlink:from="here" xlink:to="manufactured-serendipity" />
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:created xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>

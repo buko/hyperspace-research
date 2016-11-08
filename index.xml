@@ -31,15 +31,7 @@
       xlink:label="mission">
       <hyper:summary>Our mission explains what we're trying to accomplish here.</hyper:summary>
     </hyper:resource>
-    <hyper:link xlink:from="here" xlink:to="mission" xlink:role="https://en.wikipedia.org/wiki/Mission_statement" />
-    
-    <hyper:resource 
-      xlink:href="nodes/bookmarks.xml" 
-      xlink:title="Hyperspace Bookmarks" 
-      xlink:label="hyperspace-bookmarks">
-      <hyper:summary>Lots and lots of interesting bookmarks about hyperspaces and related subjects from around the web.</hyper:summary>
-    </hyper:resource>
-    <hyper:link xlink:from="here" xlink:to="hyperspace-bookmarks" xlink:role="http://purl.org/bubblegum/bookmarks/1.0" />
+    <hyper:link xlink:from="here" xlink:to="mission" xlink:role="http://purl.org/hyperspace/model/links#mission" />
     
   </hyper:location>
   

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+    
+  <hyper:location>
+    <hyper:title>Goal: Technology</hyper:title>    
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p>It would be easy to serve as just a repository of information. A few papers, a few links, and the occassional blog entry and then call it a day. But where's the fun in that?</h:p>
+        
+        <h:p><h:a href="https://en.wikiquote.org/wiki/Alan_Kay">The best way to predict the future is to invent it.</h:a></h:p>
+        
+        <h:p>We develop novel, innovative technologies that leverage the power of hyperspaces and these aren't just research demonstrations -- we encourage real people to use these technologies. And of course you'll find our work <h:a href="github-repository.xml">github</h:a>.</h:p>
+       </h:section>
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="https://en.wikiquote.org/wiki/Alan_Kay"
+      xlink:title="Alan Kay: Quotes"
+      xlink:label="alan-kay-quotes" />
+    <hyper:link xlink:from="here" xlink:to="alan-kay-quotes" />
+    
+    <hyper:resource
+      xlink:href="github-repository.xml"
+      xlink:title="Github Repository"
+      xlink:label="github-repository" />
+    <hyper:link xlink:from="here" xlink:to="github-repository" />
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-07" xlink:title="2016-11-07" />
+    <xdc:created xlink:href="urn:date:2016-11-07" xlink:title="2016-11-07" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>
