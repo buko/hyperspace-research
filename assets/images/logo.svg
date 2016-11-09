@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -6,22 +8,48 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="75.393639mm"
+   height="110.47008mm"
+   viewBox="0 0 267.14281 391.42941"
    id="svg2"
-   viewBox="0 0 744.09448819 1052.3622047"
-   height="297mm"
-   width="210mm">
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg">
   <defs
      id="defs4">
     <linearGradient
-       osb:paint="solid"
-       id="linearGradient10750">
+       id="linearGradient10750"
+       osb:paint="solid">
       <stop
-         id="stop10752"
+         style="stop-color:#000000;stop-opacity:1;"
          offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
+         id="stop10752" />
     </linearGradient>
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-260.71428"
+     inkscape:cy="1205.7143"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1177"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -35,31 +63,45 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer2">
-    <path
-       d="M 313.21888,231.20347 A 190,140 0 0 1 491.3987,368.45184 190,140 0 0 1 319.93378,510.26806"
-       id="path10779"
-       style="fill:none;fill-opacity:1;stroke:#00c800;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  </g>
-  <g
-     id="layer1">
-    <ellipse
-       ry="60.714287"
-       rx="61.42857"
-       cy="361.64792"
-       cx="487.14285"
-       id="path3358"
-       style="fill:#0000ff" />
-    <path
-       id="path3358-8"
-       d="M 352.85631,445.93331 A 61.42857,60.714287 0 0 0 291.42858,506.64816 61.42857,60.714287 0 0 0 352.85631,567.363 61.42857,60.714287 0 0 0 414.286,506.64816 61.42857,60.714287 0 0 0 352.85631,445.93331 Z"
-       style="fill:#8800aa" />
-    <ellipse
-       ry="60.714287"
-       rx="61.42857"
-       cy="236.64789"
-       cx="342.85718"
-       id="path3358-84"
-       style="fill:#ffd42a" />
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2.0593262e-6,-660.9328)">
+    <g
+       id="g8083"
+       transform="translate(-281.42861,484.9992)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="layer2">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#00c800;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path10779"
+           d="M 313.21888,231.20347 A 190,140 0 0 1 491.3987,368.45184 190,140 0 0 1 319.93378,510.26806"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="layer1-0">
+        <ellipse
+           style="fill:#0000ff"
+           id="path3358"
+           cx="487.14285"
+           cy="361.64792"
+           rx="61.42857"
+           ry="60.714287" />
+        <path
+           style="fill:#8800aa"
+           d="M 352.85631,445.93331 A 61.42857,60.714287 0 0 0 291.42858,506.64816 61.42857,60.714287 0 0 0 352.85631,567.363 61.42857,60.714287 0 0 0 414.286,506.64816 61.42857,60.714287 0 0 0 352.85631,445.93331 Z"
+           id="path3358-8"
+           inkscape:connector-curvature="0" />
+        <ellipse
+           style="fill:#ffd42a"
+           id="path3358-84"
+           cx="342.85718"
+           cy="236.64789"
+           rx="61.42857"
+           ry="60.714287" />
+      </g>
+    </g>
   </g>
 </svg>

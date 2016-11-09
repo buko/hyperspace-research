@@ -25,9 +25,12 @@
       </h:head>
       <h:body style="padding-top: 5rem;">
         <h:header style="padding: 3rem 1.6rem; text-align: center;">
-          <h:div class="container text-xs-center">
-            <h:img src="../../../images/logo.svg" class="img-fluid" />
-            <h:h1><xsl:value-of select="/*/hyper:location/hyper:title" /></h:h1>
+          <h:div class="container text-xs-center" >
+            
+            <h:h1 style="margin-top:auto; maring-bottom:auto;">
+            <h:img src="../assets/images/logo.svg" 
+              style="width:100px; height:100px; vertical-align:middle;" alt="Hyperspace Logo" />
+              <span style="vertical-align:middle;"><xsl:value-of select="/*/hyper:location/hyper:title" /></span></h:h1>
             
             <xsl:if test="/hyper:location/hyper:summary">
               <h:p class="lead text-muted">
