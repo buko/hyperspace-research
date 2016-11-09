@@ -8,7 +8,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude">
   
   <xsl:include href="../../xsl/xinclude.xsl" />
-  <xsl:output method="xml" indent="yes" />
+  <xsl:output method="xml" encoding="UTF-8" indent="yes" />
   
   <xsl:template match="/">
     <h:html>
