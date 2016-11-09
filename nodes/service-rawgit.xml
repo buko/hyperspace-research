@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
-<hyper:concept
+<hyper:annotation
   xmlns:hyper="http://purl.org/hyperspace/model/1.0"
   xmlns:xdc="http://purl.org/xdc/elements/1.0"
   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -12,28 +12,24 @@
     http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
     http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
   <hyper:location>
-    <hyper:title>Develop your own Hyperspace</hyper:title>
-    <hyper:description xlink:label="here">
+    <hyper:title>rawgit.com</hyper:title>
+    <hyper:description>
       <h:section>
-        <h:p>Developing your own hyperspace is supposed to be <h:a href="principle-simplicity.xml">very simple</h:a> as a matter of principle but there's still a few things you ought to know before you begin. We'll answer all your questions here.</h:p>
+        <h:p>If you use github to store your hyperspace then check out <h:a href="https://rawgit.com/">RawGit</h:a>. It's a great free
+        service that lets you refer to hyperspace assets using absolute URIs. It serves content up from your github repository using the 
+        <h:em>correct</h:em> mime types -- something github doesn't do for some strange reason.</h:p>
       </h:section>
     </hyper:description>
-    <hyper:resource
-      xlink:href="xsl-traps.xml"
-      xlink:title="XSL Traps"
-      xlink:label="xsl-traps" />
-    <hyper:link xlink:from="here" xlink:to="xsl-traps" />
     
     <hyper:resource
-      xlink:href="service-rawgit.xml"
+      xlink:href="http://rawgit.com"
       xlink:title="RawGit"
-      xlink:label="rawgit" />
-    <hyper:link xlink:from="here" xlink:to="rawgit" />
+      xlink:label="rawgit-service" />
+    <hyper:link xlink:from="here" xlink:to="rawgit-service" xlink:role="http://purl.org/hyperspace/model/links#annotation" />
   </hyper:location>
-  
   <xdc:properties>
-    <xdc:modified xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
-    <xdc:created xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:modified xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
+    <xdc:created xlink:href="urn:date:2016-11-08" xlink:title="2016-11-08" />
     <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
     <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
     <xdc:language xlink:href="urn:lang:en" />
@@ -41,4 +37,4 @@
     <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
     <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
   </xdc:properties>
-</hyper:concept>
+</hyper:annotation>
