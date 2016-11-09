@@ -28,9 +28,9 @@
           <h:div class="container text-xs-center" >
             
             <h:h1 style="margin-top:auto; maring-bottom:auto;">
-            <h:img src="../assets/images/logo.svg" 
-              style="width:100px; height:100px; vertical-align:middle;" alt="Hyperspace Logo" />
-              <span style="vertical-align:middle;"><xsl:value-of select="/*/hyper:location/hyper:title" /></span></h:h1>
+            <h:img src="https://cdn.rawgit.com/hyperspace-research/hyperspace-research-site/master/assets/images/logo.svg" 
+              style="width:100px; height:200px; padding-top: 35px;" alt="Hyperspace Logo" />
+              <span style="line-height:200px;"><xsl:value-of select="/*/hyper:location/hyper:title" /></span></h:h1>
             
             <xsl:if test="/hyper:location/hyper:summary">
               <h:p class="lead text-muted">
