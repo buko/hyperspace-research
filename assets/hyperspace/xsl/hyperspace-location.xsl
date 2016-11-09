@@ -26,6 +26,7 @@
       <h:body style="padding-top: 5rem;">
         <h:header style="padding: 3rem 1.6rem; text-align: center;">
           <h:div class="container text-xs-center">
+            <h:img src="../../../images/logo.svg" class="img-fluid" />
             <h:h1><xsl:value-of select="/*/hyper:location/hyper:title" /></h:h1>
             
             <xsl:if test="/hyper:location/hyper:summary">
