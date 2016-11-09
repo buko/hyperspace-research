@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  <hyper:location>
+    <hyper:title>XSL Traps</hyper:title>
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p>It's worth noting that when working with a hyperspace on the local filesystem there are a few XSL traps that can bite you and a few issues you should keep in mind. We'll list them here.</h:p>
+        
+      </h:section>       
+    </hyper:description>
+    <hyper:resource
+      xlink:href="xsl-trap-firefox-silently-ignores-xslt.xml"
+      xlink:title="Firefox silently ignores XSLT"
+      xlink:label="xsl-trap-firefox-silently-ignores-xslt" />
+    <hyper:link xlink:from="here" xlink:to="xsl-trap-firefox-silently-ignores-xslt" />
+    
+    <hyper:resource
+      xlink:href="xsl-trap-chrome-ignores-xslt.xml"
+      xlink:title="Chrome ignores XSLT"
+      xlink:label="xsltrap-chrome-ignores-xslt" />
+    <hyper:link xlink:from="here" xlink:to="xsl-trap-chrome-ignores-xslt" />  
+    
+    <hyper:resource
+      xlink:href="xsl-trap-xsl-cors-doesnt-work-in-chrome.xml"
+      xlink:title="Chome doesn't support remote XSLT files"
+      xlink:label="xsltrap-chrome-cors" />
+    <hyper:link xlink:from="here" xlink:to="xsltrap-chrome-cors" />  
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:created xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>

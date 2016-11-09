@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  <hyper:location>
+    <hyper:title>XSLT Trap: Firefox silently ignores local XSLT file</hyper:title>
+    <hyper:description>
+      <h:section>
+        <h:p>By default, <h:a href="https://www.mozilla.org/en-US/firefox/products/">Firefox</h:a> will ignore an XSLT transformation (referenced using the <h:code>xml-stylesheet</h:code> processing instruction) <h:em>unless</h:em> the XSLT file happens to be in the same directory as the referencing XML file and the <h:code>xml-stylesheet:href</h:code> attribute contains no <h:code>..</h:code> or <h:code>.</h:code> elements.</h:p>
+        
+        <h:p>This is apparently a security error but it raises no obvious security alert -- not on the file itself and not in any developer console. Firefox just silently ignores the XSLT file.</h:p>
+        
+        <h:p>(Yes, this isn't nice. It's easy to waste quite a bit of time trying to figure out what, if anything, is wrong with your markup or your XSLT!)</h:p>
+        
+        <h:p>The solution is found in <h:a href="http://stackoverflow.com/a/4279450">this stack overflow answer</h:a>:</h:p>
+        
+        <h:ol>
+          <h:li>Go to <h:code>about:config</h:code></h:li>
+          <h:li>Set <h:code>security.fileuri.strict_origin_policy</h:code> to <h:code>false</h:code></h:li>
+        </h:ol>
+      </h:section>
+    </hyper:description>
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:created xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>

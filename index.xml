@@ -33,6 +33,11 @@
     </hyper:resource>
     <hyper:link xlink:from="here" xlink:to="mission" xlink:role="http://purl.org/hyperspace/model/links#mission" />
     
+    <hyper:resource
+      xlink:href="nodes/develop-a-hyperspace.xml"
+      xlink:title="Develop your own Hyperspace" 
+      xlink:label="develop-your-own" />
+    <hyper:link xlink:from="here" xlink:to="develop-your-own" />
   </hyper:location>
   
   <xdc:properties>

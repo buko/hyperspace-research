@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  <hyper:location>
+    <hyper:title>XSLT Trap: Chrome ignores local XSLT file</hyper:title>
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p>Chrome is even more strict than Firefox and seems to disable any XSLT transformations for local XML files and local XSLT stylesheets. Fortunately Chrome will reveal a security alert in its 'Inspector' mode.</h:p>
+        
+        <h:p>Unfortunately the fix is a bit of a PITA: you must start Chrome with specific flags as discussed in <h:a href="http://stackoverflow.com/a/15999947">this Stack Overflow question</h:a>.</h:p>
+        
+        <h:h2>Windows Fix</h:h2>
+        
+        <h:p>You'll need to first close all running instances of the Chrome browser. Then create a new Windows shortcut for launching the Chrome browser whose <h:code>Target</h:code> looks like: <h:code>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files</h:code></h:p>
+        
+        <h:p>Afterwards make sure to launch Chrome using this special shortcut or this trap can come back to bite you!</h:p>
+      </h:section>
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="http://stackoverflow.com/questions/3828898/can-chrome-be-made-to-perform-an-xsl-transform-on-a-local-file"
+      xlink:title="Can Chrome be made to perform an XSL transform on a local file?"
+      xlink:label="stackoverflow-can-chrome" />
+    <hyper:link xlink:from="here" xlink:to="stackoverflow-can-chrome" />
+    
+    <hyper:resource
+      xlink:href="https://bugs.chromium.org/p/chromium/issues/detail?id=70088"
+      xlink:title="Issue 70088: xsl stylesheet wrongly blocked, all on local drive"
+      xlink:label="issue-70088" />
+    <hyper:link xlink:from="here" xlink:to="issue-70088" />
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:created xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../assets/hyperspace/xsl/hyperspace-location.xsl" type="text/xsl" version="1.0" ?>
+<hyper:concept
+  xmlns:hyper="http://purl.org/hyperspace/model/1.0"
+  xmlns:xdc="http://purl.org/xdc/elements/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:h="http://www.w3.org/1999/xhtml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.w3.org/1999/xlink https://www.w3.org/1999/xlink.xsd
+    http://www.w3.org/2001/XInclude https://www.w3.org/2001/XInclude/XInclude.xsd
+    http://www.w3.org/1999/xhtml http://purl.org/bubblegum/1999/xhtml.xsd">
+  <hyper:location>
+    <hyper:title>XSLT Trap: CORS doesn't work for XSLT transformations</hyper:title>
+    <hyper:description xlink:label="here">
+      <h:section>
+        <h:p>Another oldy but goody: CORS doesn't work for XSLT transformations in Chrome. This means that it's impossible to refer to an XSL stylesheet stored on a remote server even if CORS has been set up. This is a big problem for local hyperspaces... we'll need to think of a solution as part of <h:a href="solution-asset-management.xml">asset management</h:a>.</h:p>
+        
+        <h:p>There is no workaround for this -- you could perhaps hack something up with Javascript but you probably have better to do. Your best bet is to go and <h:a href="https://bugs.chromium.org/p/chromium/issues/detail?id=101152">add another star to the bug report</h:a>.</h:p>
+      </h:section>
+    </hyper:description>
+    
+    <hyper:resource
+      xlink:href="https://bugs.chromium.org/p/chromium/issues/detail?id=101152"
+      xlink:title="cross-site xml to xslt security block"
+      xlink:label="cross-site-xslt-block" />
+    <hyper:link xlink:from="here" xlink:to="cross-site-xslt-block" />
+    
+    <hyper:resource
+      xlink:href="https://bugs.webkit.org/show_bug.cgi?id=110880"
+      xlink:title="Cross-origin XSLT requests with CORS should be allowed"
+      xlink:label="webkit-cross-origin-xslt-unallowed" />
+    <hyper:link xlink:from="here" xlink:to="https://bugs.webkit.org/show_bug.cgi?id=110880" />
+    
+    
+  </hyper:location>
+  
+  <xdc:properties>
+    <xdc:modified xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:created xlink:href="urn:date:2016-11-09" xlink:title="2016-11-09" />
+    <xdc:license xlink:href="http://creativecommons.org/publicdomain/zero/1.0" xlink:title="public domain" />
+    <xdc:isPartOf xlink:href="http://www.hyperspaceresearch.org" xlink:title="hyperspaceresearch.org" />
+    <xdc:language xlink:href="urn:lang:en" />
+    <xdc:publisher xlink:href="http://www.hyperspaceresearch.org" />
+    <xdc:creator xlink:href="buko.xml" xlink:title="buko" />
+    <xdc:contact xlink:href="buko.xml" xlink:title="buko" />
+  </xdc:properties>
+</hyper:concept>
